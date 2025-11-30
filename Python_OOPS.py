@@ -24,3 +24,15 @@ s.loop()
 
 
 
+class Ram():
+    def sum(self):
+        n=int(input('enter a number:-'))
+        n1=int(input('enter secont number:-'))
+        sum=n+n1
+        print(sum)
+a=Ram()
+a.sum()
+
+
+
+
