@@ -8,3 +8,19 @@ class hello:
 s=hello()
 s.ram()
 
+
+
+
+
+class Some():
+    def loop(self):
+        i=1
+        while(i<=10):
+            print(i)
+            i+=1
+    
+s=Some()
+s.loop()
+
+
+
