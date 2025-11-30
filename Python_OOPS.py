@@ -36,3 +36,17 @@ a.sum()
 
 
 
+class Father:
+    def f1(self):
+        print('father class')
+class Child(Father):
+    def c1(self):
+        print('child class')
+        
+s=Child()
+s.f1()
+s.c1()
+
+
+
+
