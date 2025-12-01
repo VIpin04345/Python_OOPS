@@ -66,3 +66,14 @@ class Car:
 obj=Car('thar','toyota')
 print(obj.carname)
 print(obj.brand)
+
+
+
+
+class Student:
+    @staticmethod
+    def hello():
+        print('hello worls')
+obj=Student()
+obj.hello()
+
