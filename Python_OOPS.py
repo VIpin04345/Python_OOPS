@@ -55,3 +55,14 @@ class Student:
 obj=Student('karan')
 print(obj.name)
 
+
+
+
+
+class Car:
+    def __init__(self,carname,brand):
+        self.carname=carname
+        self.brand=brand
+obj=Car('thar','toyota')
+print(obj.carname)
+print(obj.brand)
