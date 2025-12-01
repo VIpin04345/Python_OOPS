@@ -77,3 +77,31 @@ class Student:
 obj=Student()
 obj.hello()
 
+
+
+# Abstraction
+
+
+
+
+class Car:
+    def __init__(self,color,model):
+        self.c=color
+        self.m=model
+obj=Car('red','bmw')
+print(obj.m)
+
+class Dog:
+    def bark(self):
+        print('bhau bhau')
+obj=Dog()
+obj.bark()
+class Bank:
+    def __init__(self):
+        self.__balance=500
+    def get_balance(self):
+        return self.__balance
+b=Bank()
+print(b.get_balance)
+
+
