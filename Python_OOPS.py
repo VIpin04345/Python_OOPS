@@ -47,6 +47,11 @@ s=Child()
 s.f1()
 s.c1()
 
-
-
+class Student:
+    name='karan'
+    def __init__(self,name):
+        self.name=name
+        print('adding new student')
+obj=Student('karan')
+print(obj.name)
 
