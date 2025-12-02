@@ -116,3 +116,21 @@ s1=Student('ajay',98)
 s2=Student('kishan',99)
 
 print(s1.name,s1.marks)
+
+
+
+
+
+
+class End:
+    def __init__(self):
+        pass
+    @staticmethod
+    def hello():
+        print('hello world')
+        
+s1=End()
+s1.hello()
+
+
+
