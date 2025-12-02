@@ -105,3 +105,14 @@ b=Bank()
 print(b.get_balance)
 
 
+
+class Student:
+    def __init__(self):
+       print('adding new element in databases')
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+s1=Student('ajay',98)
+s2=Student('kishan',99)
+
+print(s1.name,s1.marks)
