@@ -236,25 +236,25 @@ def add():
     return c
 
 
-# x = add()
-# print(x * 2)
-# x = x + 5
-# print(x)
+x = add()
+print(x * 2)
+x = x + 5
+print(x)
 
 
-# def fact(a):
-#     i=1
-#     fact=1
-#     while(a>0):
-#         fact=fact*a
-#         a-=1
-#     print(fact)
+def fact(a):
+    i=1
+    fact=1
+    while(a>0):
+        fact=fact*a
+        a-=1
+    print(fact)
     
-#     return(fact)
-# x=fact(5)
-# print(x*2)
-# x=x-60
-# print(x)
+    return(fact)
+x=fact(5)
+print(x*2)
+x=x-60
+print(x)
 
 
 
