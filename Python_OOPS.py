@@ -213,6 +213,52 @@ f2()
 
 
 
+
+
+
+
+#  take something return nothing
+def add(a,b,c):
+    d=a*b*c
+    print(d)
+add(2,3,4)
+
+
+# take nothing return something.
+
+
+# def add():
+#     print("enter two numbers")
+#     a = int(input())
+#     b = int(input())
+#     c = a + b
+#     print(c)
+#     return c
+
+
+# x = add()
+# print(x * 2)
+# x = x + 5
+# print(x)
+
+
+# def fact(a):
+#     i=1
+#     fact=1
+#     while(a>0):
+#         fact=fact*a
+#         a-=1
+#     print(fact)
+    
+#     return(fact)
+# x=fact(5)
+# print(x*2)
+# x=x-60
+# print(x)
+
+
+
+
 # take nothing return nothing
 
 
