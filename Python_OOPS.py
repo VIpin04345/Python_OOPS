@@ -227,13 +227,13 @@ add(2,3,4)
 # take nothing return something.
 
 
-# def add():
-#     print("enter two numbers")
-#     a = int(input())
-#     b = int(input())
-#     c = a + b
-#     print(c)
-#     return c
+def add():
+    print("enter two numbers")
+    a = int(input())
+    b = int(input())
+    c = a + b
+    print(c)
+    return c
 
 
 # x = add()
