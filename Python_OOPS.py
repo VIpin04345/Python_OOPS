@@ -187,4 +187,26 @@ acc1=Account(10000,12345)
 acc1.debit(5000)
 acc1.credit(12000)
         
-  
+
+# FUNCTIONS     
+
+
+
+def f1():
+    n = int(input("enter a number"))
+    n = n**2
+
+    print(n)
+
+
+def f2():
+    a = int(input("enter a number"))
+    b = int(input("enter a number:-"))
+    sum = a + b
+    print(sum)
+
+
+f1()
+f1()
+f2()
+
