@@ -210,3 +210,16 @@ f1()
 f1()
 f2()
 
+
+
+
+# take nothing return nothing
+
+
+def add():
+    print('enter two numbers')
+    a=int(input())
+    b=int(input())
+    c=a+b
+    print(c)
+add()
