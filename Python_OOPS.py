@@ -160,8 +160,6 @@ car1.start()
         
 
 
-
-        
         
         
 # ENCAPSULATION...................
