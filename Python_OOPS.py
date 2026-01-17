@@ -347,3 +347,15 @@ p = Person()
 p.set_age(25)
 print(p.get_age())
 
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+class Dog:
+    def sound(self):
+        print("Bark")
+
+for animal in (Cat(), Dog()):
+    animal.sound()
+
