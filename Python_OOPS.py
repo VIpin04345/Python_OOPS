@@ -290,4 +290,10 @@ class Employee:
 e1 = Employee("Amit", 30000)
 print(e1.name, e1.salary)
 
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+c = Calculator()
+print(c.add(10, 20))
 
