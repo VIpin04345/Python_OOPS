@@ -270,6 +270,7 @@ add()
 
 
 
+# 1️⃣ Class aur Object (Basic)
 class Student:
     def __init__(self, name, age):
         self.name = name
@@ -282,6 +283,7 @@ s1 = Student("Rahul", 20)
 s1.show()
 
 
+# 2️⃣ Constructor use
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -290,6 +292,9 @@ class Employee:
 e1 = Employee("Amit", 30000)
 print(e1.name, e1.salary)
 
+
+
+# 3️⃣ Method inside class
 class Calculator:
     def add(self, a, b):
         return a + b
@@ -297,7 +302,7 @@ class Calculator:
 c = Calculator()
 print(c.add(10, 20))
 
-
+# 4️⃣ Inheritance (Parent → Child)
 class Animal:
     def sound(self):
         print("Animal sound")
@@ -311,6 +316,7 @@ d.sound()
 d.bark()
 
 
+# 5️⃣ Method Overriding
 class Animal:
     def sound(self):
         print("Animal sound")
@@ -324,7 +330,7 @@ d.sound()
 
 
 
-
+# 6️⃣ Encapsulation (Private variable)
 class Employee:
     def __init__(self, salary):
         self.__salary = salary   # private
@@ -335,7 +341,7 @@ class Employee:
 e = Employee(40000)
 print(e.get_salary())
 
-
+# 7️⃣ Getter & Setter
 class Person:
     def set_age(self, age):
         self.age = age
@@ -348,6 +354,8 @@ p.set_age(25)
 print(p.get_age())
 
 
+
+# 8️⃣ Polymorphism
 class Cat:
     def sound(self):
         print("Meow")
@@ -359,6 +367,8 @@ class Dog:
 for animal in (Cat(), Dog()):
     animal.sound()
 
+
+# 9️⃣ Class Variable vs Instance Variable
 class Employee:
     company = "TCS"   # class variable
 
@@ -369,3 +379,26 @@ e1 = Employee("Amit")
 e2 = Employee("Rohit")
 
 print(e1.company, e2.company)
+
+
+# 🔟 Real-life Example (Bank Account)
+class BankAccount:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Insufficient balance")
+
+    def show_balance(self):
+        print("Balance:", self.balance)
+
+acc = BankAccount(5000)
+acc.deposit(2000)
+acc.withdraw(3000)
+acc.show_balance()
