@@ -335,3 +335,15 @@ class Employee:
 e = Employee(40000)
 print(e.get_salary())
 
+
+class Person:
+    def set_age(self, age):
+        self.age = age
+
+    def get_age(self):
+        return self.age
+
+p = Person()
+p.set_age(25)
+print(p.get_age())
+
