@@ -267,3 +267,17 @@ def add():
     c=a+b
     print(c)
 add()
+
+
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def show(self):
+        print(self.name, self.age)
+
+s1 = Student("Rahul", 20)
+s1.show()
+
