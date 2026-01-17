@@ -359,3 +359,13 @@ class Dog:
 for animal in (Cat(), Dog()):
     animal.sound()
 
+class Employee:
+    company = "TCS"   # class variable
+
+    def __init__(self, name):
+        self.name = name
+
+e1 = Employee("Amit")
+e2 = Employee("Rohit")
+
+print(e1.company, e2.company)
