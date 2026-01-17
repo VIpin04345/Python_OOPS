@@ -281,3 +281,13 @@ class Student:
 s1 = Student("Rahul", 20)
 s1.show()
 
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+e1 = Employee("Amit", 30000)
+print(e1.name, e1.salary)
+
+
