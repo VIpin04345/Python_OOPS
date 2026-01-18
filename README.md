@@ -39,3 +39,15 @@ The goal is to help learners:
 - Apply OOP in real‑world scenarios
 
 - Prepare for Python technical interviews
+
+# 🧠 OOP Concepts Covered
+
+✔ Class & Object
+✔ Constructor (__init__)
+✔ Encapsulation (Data Hiding)
+✔ Inheritance
+✔ Polymorphism
+✔ Abstraction (using abc module)
+✔ Method Overriding
+✔ self keyword
+✔ Class vs Instance Variables
