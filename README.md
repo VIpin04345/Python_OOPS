@@ -76,3 +76,16 @@ Installation
 - Test polymorphism by overriding methods
 
 This structure allows easy scalability and clean separation of concerns.
+
+# 💡 Code Example
+
+    class Animal:
+       def speak(self):
+            raise NotImplementedError("Subclass must implement this method")
+
+    class Dog(Animal):
+       def speak(self):
+             return "Dog barks"
+
+    obj = Dog()
+    print(obj.speak())
