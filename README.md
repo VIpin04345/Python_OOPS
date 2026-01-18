@@ -66,3 +66,13 @@ Installation
 
 # Run the project
     python main.py
+
+# ▶️ Usage
+
+- Modify or extend classes in models.py
+
+- Add new features using inheritance
+
+- Test polymorphism by overriding methods
+
+This structure allows easy scalability and clean separation of concerns.
