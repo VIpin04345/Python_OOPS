@@ -89,3 +89,15 @@ This structure allows easy scalability and clean separation of concerns.
 
     obj = Dog()
     print(obj.speak())
+
+# ✅ Best Practices Followed
+
+- Meaningful class and method names
+
+- Single Responsibility Principle
+
+- Proper use of access modifiers (_ and __)
+
+- Modular and readable code
+
+- Interview‑friendly design patterns
