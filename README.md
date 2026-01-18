@@ -51,3 +51,18 @@ The goal is to help learners:
 ✔ Method Overriding
 ✔ self keyword
 ✔ Class vs Instance Variables
+
+# ⚙️ Getting Started
+Prerequisites
+
+- Python 3.8 or above
+
+Installation
+# Clone the repository
+    git clone https://github.com/your-username/python-oops-project.git
+
+# Navigate to project folder
+    cd python-oops-project
+
+# Run the project
+    python main.py
