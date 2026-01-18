@@ -101,3 +101,14 @@ This structure allows easy scalability and clean separation of concerns.
 - Modular and readable code
 
 - Interview‑friendly design patterns
+
+
+# 🚀 Future Improvements
+
+- Add unit tests using unittest or pytest
+
+- Convert project into a package
+
+- Add logging
+
+- Improve exception handling
