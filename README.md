@@ -26,3 +26,16 @@ A clean, beginner-to-intermediate friendly Python project demonstrating Object-O
 Contributing
 
 License
+
+
+# 📖 About the Project
+
+This project is designed to showcase Python OOP principles in a practical and interview‑ready way. It focuses on writing clean, modular, and maintainable code using classes and objects.
+
+The goal is to help learners:
+
+- Understand core OOP concepts clearly
+
+- Apply OOP in real‑world scenarios
+
+- Prepare for Python technical interviews
