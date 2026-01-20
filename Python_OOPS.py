@@ -477,3 +477,20 @@ s1 = Salary(20000)
 s2 = Salary(30000)
 
 print(s1 + s2)
+
+
+class Employee:
+    def __init__(self, salary):
+        self.__salary = salary   # private
+
+    def get_salary(self):
+        return self.__salary
+
+    def set_salary(self, amount):
+        self.__salary = amount
+
+e = Employee(25000)
+print(e.get_salary())
+
+e.set_salary(30000)
+print(e.get_salary())
