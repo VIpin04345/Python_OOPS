@@ -402,3 +402,27 @@ acc = BankAccount(5000)
 acc.deposit(2000)
 acc.withdraw(3000)
 acc.show_balance()
+
+
+
+from abc import ABC, abstractmethod
+
+class Bank(ABC):
+
+    @abstractmethod
+    def interest_rate(self):
+        pass
+
+class SBI(Bank):
+    def interest_rate(self):
+        return "SBI Interest Rate: 6%"
+
+class HDFC(Bank):
+    def interest_rate(self):
+        return "HDFC Interest Rate: 7%"
+
+s = SBI()
+h = HDFC()
+
+print(s.interest_rate())
+print(h.interest_rate())
