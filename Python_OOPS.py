@@ -494,3 +494,19 @@ print(e.get_salary())
 
 e.set_salary(30000)
 print(e.get_salary())
+
+
+class Company:
+    company_name = "Infosys"
+
+    @classmethod
+    def change_company(cls, name):
+        cls.company_name = name
+
+    @staticmethod
+    def info():
+        print("This is IT company")
+
+Company.info()
+Company.change_company("TCS")
+print(Company.company_name)
