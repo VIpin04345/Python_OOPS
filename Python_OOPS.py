@@ -510,3 +510,15 @@ class Company:
 Company.info()
 Company.change_company("TCS")
 print(Company.company_name)
+
+
+class FileManager:
+    def __enter__(self):
+        print("File opened")
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        print("File closed")
+
+with FileManager():
+    print("Working with file")
