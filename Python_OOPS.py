@@ -464,3 +464,16 @@ c = Cat()
 a.sound()
 d.sound()
 c.sound()
+
+
+class Salary:
+    def __init__(self, amount):
+        self.amount = amount
+
+    def __add__(self, other):
+        return self.amount + other.amount
+
+s1 = Salary(20000)
+s2 = Salary(30000)
+
+print(s1 + s2)
