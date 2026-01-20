@@ -426,3 +426,20 @@ h = HDFC()
 
 print(s.interest_rate())
 print(h.interest_rate())
+
+
+
+
+class Father:
+    def skill(self):
+        print("Father: Driving")
+
+class Mother:
+    def skill(self):
+        print("Mother: Cooking")
+
+class Child(Father, Mother):
+    pass
+
+c = Child()
+c.skill()
