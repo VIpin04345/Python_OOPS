@@ -323,6 +323,14 @@ d = Dog()
 d.sound()
 d.bark()
 
+class Ram():
+    def sum(self):
+        n=int(input('enter a number:-'))
+        n1=int(input('enter secont number:-'))
+        sum=n+n1
+        print(sum)
+a=Ram()
+a.sum()
 
 # 5️⃣ Method Overriding
 class Animal:
