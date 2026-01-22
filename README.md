@@ -6,7 +6,7 @@ objects oriented programming in python
 A clean, beginner-to-intermediate friendly Python project demonstrating Object-Oriented Programming (OOP) concepts with clear structure, real-world examples, and reusable code.
 
 # 📌 Table of Contents
-this is final program of my 
+this is final
 
 - About the Project
 
