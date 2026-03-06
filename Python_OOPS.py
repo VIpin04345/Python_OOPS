@@ -587,3 +587,15 @@ def f2():
 f1()
 f1()
 f2()
+
+
+
+class hello:
+    def ram(self):
+        a=12
+        b=13
+        c=a+b
+        print(c)
+
+s=hello()
+s.ram()
