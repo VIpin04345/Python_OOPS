@@ -556,3 +556,14 @@ class Car:
 c = Car()
 c.drive()
 
+
+
+class Employee:
+    def __init__(self, salary):
+        self.__salary = salary   # private
+
+    def get_salary(self):
+        return self.__salary
+
+e = Employee(40000)
+print(e.get_salary())
