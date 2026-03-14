@@ -77,6 +77,20 @@ s=Child()
 s.f1()
 s.c1()
 
+class Dog:
+    def sound(self):
+        print("Bark")
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+d = Dog()
+c = Cat()
+
+d.sound()
+c.sound()
+
 class Student:
     name='karan'
     def __init__(self,name):
