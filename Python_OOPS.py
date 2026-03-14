@@ -100,7 +100,12 @@ obj=Student('karan')
 print(obj.name)
 
 
+class Bank:
+    def __init__(self, balance):
+        self.__balance = balance
 
+b = Bank(1000)
+print(b._Bank__balance)
 
 
 class Car:
