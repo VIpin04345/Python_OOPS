@@ -39,6 +39,20 @@ class Some():
 s=Some()
 s.loop()
 
+
+class Dog:
+    def sound(self):
+        print("Bark")
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+d = Dog()
+c = Cat()
+
+d.sound()
+c.sound()
 class Car:
     brand = "Toyota"
 
