@@ -19,6 +19,8 @@ c = Child()
 c.house()
 
 
+
+
 class Student:
     def __init__(self, name, age):
         self.name = name
@@ -28,6 +30,8 @@ s1 = Student("Rahul", 21)
 
 print(s1.name)
 print(s1.age)
+
+
 
 class Some():
     def loop(self):
