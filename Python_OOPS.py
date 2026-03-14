@@ -8,6 +8,15 @@ class hello:
 s=hello()
 s.ram()
 
+class Parent:
+    def house(self):
+        print("Parent house")
+
+class Child(Parent):
+    pass
+
+c = Child()
+c.house()
 
 
 class Student:
