@@ -22,6 +22,11 @@ class Some():
 s=Some()
 s.loop()
 
+class Car:
+    brand = "Toyota"
+
+c1 = Car()
+print(c1.brand)
 
 
 class Ram():
