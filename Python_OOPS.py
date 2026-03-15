@@ -533,6 +533,19 @@ e2 = Employee("Rohit")
 
 print(e1.company, e2.company)
 
+class Dog:
+    def sound(self):
+        print("Dog barks")
+
+class Cat:
+    def sound(self):
+        print("Cat meows")
+
+d = Dog()
+c = Cat()
+
+d.sound()
+c.sound()
 
 # 🔟 Real-life Example (Bank Account)
 class BankAccount:
