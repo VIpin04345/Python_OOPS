@@ -391,6 +391,15 @@ x=x-60
 print(x)
 
 
+class Student:
+    def __init__(self):
+        self.__name = "Rahul"
+
+    def show(self):
+        print(self.__name)
+
+s = Student()
+s.show()
 
 
 # take nothing return nothing
