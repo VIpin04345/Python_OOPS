@@ -208,7 +208,16 @@ class Bank:
 b=Bank()
 print(b.get_balance)
 
+class Parent:
+    def show(self):
+        print("Parent class")
 
+class Child(Parent):
+    def show(self):
+        print("Child class")
+
+obj = Child()
+obj.show()
 
 class Student:
     def __init__(self):
