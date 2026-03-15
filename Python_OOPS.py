@@ -63,6 +63,14 @@ class Car:
 c1 = Car()
 print(c1.brand)
 
+class Student:
+    name = "Rahul"
+    age = 21
+
+s1 = Student()
+
+print(s1.name)
+print(s1.age)
 
 class Ram():
     def sum(self):
