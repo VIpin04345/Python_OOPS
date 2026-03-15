@@ -222,7 +222,22 @@ s2=Student('kishan',99)
 print(s1.name,s1.marks)
 
 
+class A:
+    def showA(self):
+        print("Class A")
 
+class B(A):
+    def showB(self):
+        print("Class B")
+
+class C(B):
+    def showC(self):
+        print("Class C")
+
+obj = C()
+obj.showA()
+obj.showB()
+obj.showC()
 
 
 
