@@ -52,6 +52,16 @@ s=Some()
 s.loop()
 
 
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print("Student name is", self.name)
+
+s1 = Student("Aman")
+s1.show()
+
 class Dog:
     def sound(self):
         print("Bark")
