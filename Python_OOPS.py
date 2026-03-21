@@ -185,7 +185,18 @@ s.show()
 s.display()
 # Abstraction
 
+class Father:
+    def show(self):
+        print("This is father class")
 
+class Son(Father):
+    def display(self):
+        print("This is son class")
+
+s = Son()
+s.show()
+s.display()
+# Abstraction
 
 
 class Car:
