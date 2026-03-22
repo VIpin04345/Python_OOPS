@@ -24,8 +24,6 @@ A clean, beginner-to-intermediate friendly Python project demonstrating Object-O
 
 - Future Improvements
 
-Contributing
-
 License
 
 
@@ -80,16 +78,16 @@ This structure allows easy scalability and clean separation of concerns.
 
 # 💡 Code Example
 
-    class Animal:
-       def speak(self):
-            raise NotImplementedError("Subclass must implement this method")
-
-    class Dog(Animal):
-       def speak(self):
-             return "Dog barks"
-
-    obj = Dog()
-    print(obj.speak())
+        class Animal:
+           def speak(self):
+                raise NotImplementedError("Subclass must implement this method")
+    
+        class Dog(Animal):
+           def speak(self):
+                 return "Dog barks"
+    
+        obj = Dog()
+        print(obj.speak())
 
 # ✅ Best Practices Followed
 
