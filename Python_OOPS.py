@@ -163,6 +163,14 @@ class Student:
 obj=Student('karan')
 print(obj.name)
 
+class Student:
+    name='karan'
+    def __init__(self,name):
+        self.name=name
+        print('adding new student')
+obj=Student('karan')
+print(obj.name)
+
 
 
 class Bank:
