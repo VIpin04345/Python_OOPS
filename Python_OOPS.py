@@ -143,6 +143,7 @@ s.c1()
 class Dog:
     def sound(self):
         print("Bark")
+        
 
 class Cat:
     def sound(self):
@@ -181,7 +182,9 @@ print(obj.carname)
 print(obj.brand)
 
 
-
+class Dog:
+    def sound(self):
+        print("Bark")
 
 class Student:
     @staticmethod
