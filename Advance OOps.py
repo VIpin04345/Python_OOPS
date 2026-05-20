@@ -62,3 +62,10 @@ class Mobile:
 x = Mobile("One Plus11R")
 x.display(20000)
 print(id(x))
+y=Mobile("RealmeX")
+y.display(15000)
+print(id(y))
+
+z=Mobile("Vivo")
+z.display(13000)
+print(id(z))
