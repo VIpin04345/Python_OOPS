@@ -34,6 +34,8 @@ class Mobile:
     def display(self,n):
         self.price = n
         print("Model:", self.model, "And Price:", self.price)
+x = Mobile("One Plus11R")
+x.display(20000)
 
 
 class Mobile:
