@@ -26,3 +26,15 @@ class Mobile:
         print("Model:",self.model,'And Price:',self.price)
 x=Mobile()
 x.display()
+
+class Mobile:
+    def __init__(self,m):
+        self.model = m
+
+    def display(self,n):
+        self.price = n
+        print("Model:", self.model, "And Price:", self.price)
+
+
+x = Mobile("One Plus11R")
+x.display(20000)
