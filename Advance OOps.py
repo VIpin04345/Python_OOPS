@@ -161,3 +161,27 @@ class Employee(object):
 
 obj = Employee()
 obj.inc_sal()
+
+
+
+
+
+
+class Mobile():
+    def __init__(self):
+        print("this is constructor class:")
+obj=Mobile()
+
+class Mobile:
+    def __init__(self,m,v=80):
+        self.mobile=m
+        self.speed=v
+
+    def show(self,p):
+        self.price=p
+        print('model:',self.mobile,'price:',self.price)
+        print("volume:",self.speed)
+
+obj=Mobile("realmeX")
+obj.show(1000)
+print(id(obj))
