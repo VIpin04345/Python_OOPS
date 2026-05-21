@@ -108,3 +108,22 @@ class Car(object):
 obj=Car()
 obj.accelerate()
 obj.brake()
+
+
+class Ractangle(object):
+    def __init__(self):
+        self.length = 10
+        self.breath = 5
+
+    def area(self):
+        print("Area:", self.length * self.breath)
+
+    def perimeter(self):
+        result = 2 * (self.length + self.breath)
+        print("Perimeter:", result)
+
+
+obj = Ractangle()
+obj.area()
+obj.perimeter()
+
