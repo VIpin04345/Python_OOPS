@@ -147,3 +147,17 @@ class BankAccount(object):
 BankAccount()
 obj.deposit(500)
 obj.withdraw(100)
+
+
+class Employee(object):
+    def __init__(self):
+        self.salary = 1000
+
+    def inc_sal(self):
+        print("salary before increment:", self.salary)
+        self.salary += 500
+        print("salary after increment:", self.salary)
+
+
+obj = Employee()
+obj.inc_sal()
