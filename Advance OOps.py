@@ -144,3 +144,6 @@ class BankAccount(object):
         print("your balance after withdraw:", self.balance)
 
 
+BankAccount()
+obj.deposit(500)
+obj.withdraw(100)
