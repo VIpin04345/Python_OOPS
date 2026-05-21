@@ -69,3 +69,25 @@ print(id(y))
 z=Mobile("Vivo")
 z.display(13000)
 print(id(z))
+
+
+# 🔹 Level 1 (Basic Understanding)
+
+# Q1.
+# Ek Student class banao jisme:
+
+# attributes: name, marks
+# method: display() jo details print kare
+
+
+class Student(object):
+    def __init__(self):
+        self.name = "Shubham Yadav"
+        self.marks = 95
+
+    def display(self):
+        print("Name:", self.name, "And Marks:", self.marks)
+
+
+obj = Student()
+obj.display()
