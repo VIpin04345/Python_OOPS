@@ -129,6 +129,8 @@ obj.perimeter()
 
 
 
+
+
 class BankAccount(object):
     def __init__(self):
         self.balance = 1000
@@ -147,6 +149,8 @@ class BankAccount(object):
 BankAccount()
 obj.deposit(500)
 obj.withdraw(100)
+
+
 
 
 class Employee(object):
@@ -185,3 +189,8 @@ class Mobile:
 obj=Mobile("realmeX")
 obj.show(1000)
 print(id(obj))
+
+
+obj1=Mobile("Oneplus",100)
+obj1.show(2000)
+print(id(obj1))
