@@ -245,3 +245,8 @@ print("realme FP:", realme.fp)
 print("redmi FP:", redmi.fp)
 print("oneplus FP:", oneplus.fp)
 print()
+realme.fp='Not Working'
+oneplus.fp='hex dynamic'
+print("Class FP:", Mobile.fp)
+print("realme FP:", realme.fp)
+print("redmi FP:", redmi.fp)
