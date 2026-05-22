@@ -229,3 +229,7 @@ class Mobile(object):
 
     def show(self):
         print("Model:", self.model)
+
+realme = Mobile()
+redmi = Mobile()
+oneplus = Mobile()
