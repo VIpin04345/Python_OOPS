@@ -194,3 +194,18 @@ print(id(obj))
 obj1=Mobile("Oneplus",100)
 obj1.show(2000)
 print(id(obj1))
+
+
+
+class Mobile:
+    fp = "Yes"
+
+    def __init__(self):
+        self.model = "RealmeX"
+
+    def show(self):
+        print("Model:", self.model)
+
+    @classmethod
+    def is_fp(cls):
+        print("finger print", cls.fp)
