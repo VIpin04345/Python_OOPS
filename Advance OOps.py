@@ -233,3 +233,9 @@ class Mobile(object):
 realme = Mobile()
 redmi = Mobile()
 oneplus = Mobile()
+
+print("Class FP:", Mobile.fp)
+print("realme FP:", realme.fp)
+print("redmi FP:", redmi.fp)
+print("oneplus FP:", oneplus.fp)
+print()
