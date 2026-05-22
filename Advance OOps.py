@@ -209,3 +209,9 @@ class Mobile:
     @classmethod
     def is_fp(cls):
         print("finger print", cls.fp)
+
+realme = Mobile()
+redmi=Mobile()
+geek=Mobile()
+print()
+Mobile.is_fp ='No'
