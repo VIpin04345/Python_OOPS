@@ -215,3 +215,9 @@ redmi=Mobile()
 geek=Mobile()
 print()
 Mobile.is_fp ='No'
+
+
+print(Mobile.fp)
+print(Mobile.fp)
+print(Mobile.fp)
+
