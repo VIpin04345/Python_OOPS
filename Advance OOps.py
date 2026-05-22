@@ -221,3 +221,11 @@ print(Mobile.fp)
 print(Mobile.fp)
 print(Mobile.fp)
 
+class Mobile(object):
+    fp = "YES"
+
+    def __init__(self):
+        self.model = "RealmeX"
+
+    def show(self):
+        print("Model:", self.model)
