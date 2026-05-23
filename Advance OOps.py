@@ -323,3 +323,6 @@ class Mobile:
         cls.ram = r
         print("fingerprint:",cls.fp)
         print('RAM:',cls.ram)
+realme = Mobile()
+Mobile.show_model("4GB")
+print(Mobile.fp)
