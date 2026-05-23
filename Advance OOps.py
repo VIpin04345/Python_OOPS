@@ -326,3 +326,15 @@ class Mobile:
 realme = Mobile()
 Mobile.show_model("4GB")
 print(Mobile.fp)
+
+
+
+class Student:
+    def __init__(self, n, r):
+        self.name = n
+        self.roll = r
+
+    def disp(self):
+        print("name:", self.name)
+        print("roll:", self.roll)
+
