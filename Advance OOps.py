@@ -310,3 +310,16 @@ class Mobile:
 realme=Mobile()
 Mobile.show_model()
 print(Mobile.fp)
+
+
+class Mobile:
+    fp = "Yes"
+
+    def __init__(self):
+        self.moodel = "RelmeX"
+
+    @classmethod
+    def show_model(cls, r):
+        cls.ram = r
+        print("fingerprint:",cls.fp)
+        print('RAM:',cls.ram)
