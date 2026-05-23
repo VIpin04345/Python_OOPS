@@ -250,3 +250,19 @@ oneplus.fp='hex dynamic'
 print("Class FP:", Mobile.fp)
 print("realme FP:", realme.fp)
 print("redmi FP:", redmi.fp)
+
+
+class Mobile:
+    def show(self):
+        print("RealmeX")
+realme=Mobile()
+realme.show()
+
+class Mobile:
+    def __init__(self,m):
+        self.moodel=m
+    def show(self,p):
+        self.price=p
+        print("Model:",self.moodel,'And Price:',self.price)
+realme=Mobile('RealmeX')
+realme.show(1000)
