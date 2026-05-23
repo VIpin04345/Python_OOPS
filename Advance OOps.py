@@ -296,3 +296,17 @@ realme = Mobile()
 # realme.model
 realme.set_model()
 print(realme.model)
+
+
+
+
+class Mobile:
+    fp='Yes'
+    def __init__(self):
+        self.moodel="RelmeX"
+    @classmethod
+    def show_model(cls):
+        print(cls.fp)
+realme=Mobile()
+Mobile.show_model()
+print(Mobile.fp)
