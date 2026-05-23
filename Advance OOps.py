@@ -338,3 +338,15 @@ class Student:
         print("name:", self.name)
         print("roll:", self.roll)
 
+
+class User:
+    @staticmethod
+    def show(s):
+        print("user name", s.name)
+        print("user roll:", s.roll)
+        s.disp()
+
+
+stu = Student("Akash", 101)
+User.show(stu)
+
