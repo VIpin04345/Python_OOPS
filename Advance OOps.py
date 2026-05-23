@@ -280,3 +280,19 @@ class Mobile:
 realme = Mobile()
 m = realme.get_model()
 print(m)
+
+
+
+
+class Mobile:
+    def __init__(self):
+        self.model = "RealmeX"
+
+    def set_model(self):
+        self.model = "Realme 2"
+
+
+realme = Mobile()
+# realme.model
+realme.set_model()
+print(realme.model)
