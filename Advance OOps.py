@@ -350,3 +350,10 @@ class User:
 stu = Student("Akash", 101)
 User.show(stu)
 
+
+class Army:
+    def __init__(self):
+        self.name='rahul'
+        self.gn=self.Gun()
+    def show(self):
+        print("name:",self.name)
