@@ -371,3 +371,6 @@ class Army:
 a=Army()
 print(a.name)
 a.show()
+
+print(a.gn.name)
+a.gn.disp()
