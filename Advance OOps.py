@@ -378,3 +378,20 @@ a.gn.disp()
 g=a.gn
 print(g.name)
 g.disp()
+
+
+
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def grade(self):
+        if self.marks >= 90:
+            print("name:", self.name, "Grade:", "A")
+        elif self.marks >= 75:
+            print("name:", self.name, "grade:", "B")
+        else:
+            print("grade:", "C")
