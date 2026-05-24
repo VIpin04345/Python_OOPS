@@ -367,3 +367,7 @@ class Army:
             print('gun name:',self.name)
             print('capacity:',self.capacity)
             print('length:',self.length)
+
+a=Army()
+print(a.name)
+a.show()
