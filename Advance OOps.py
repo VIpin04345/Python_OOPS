@@ -357,3 +357,13 @@ class Army:
         self.gn=self.Gun()
     def show(self):
         print("name:",self.name)
+
+    class Gun:
+        def __init__(self):
+            self.name="AK47"
+            self.capacity='75 rounds'
+            self.length='34.3 In'
+        def disp(self):
+            print('gun name:',self.name)
+            print('capacity:',self.capacity)
+            print('length:',self.length)
