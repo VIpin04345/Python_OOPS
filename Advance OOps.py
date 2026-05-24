@@ -395,3 +395,7 @@ class Student:
             print("name:", self.name, "grade:", "B")
         else:
             print("grade:", "C")
+
+
+obj = Student("Rohit", 78)
+obj.grade()
