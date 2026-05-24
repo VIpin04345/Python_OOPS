@@ -374,3 +374,7 @@ a.show()
 
 print(a.gn.name)
 a.gn.disp()
+
+g=a.gn
+print(g.name)
+g.disp()
