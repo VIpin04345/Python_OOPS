@@ -433,3 +433,13 @@ class Person:
 
 obj = Person("raghav", 122)
 obj.is_adult()
+
+
+
+
+class Car:
+    def __init__(self,brand):
+        self.brand=brand
+    def show(self,s):
+        self.s=s
+        print("brand Name:",self.brand,'Speed:',self.s)
