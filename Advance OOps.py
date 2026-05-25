@@ -443,3 +443,10 @@ class Car:
     def show(self,s):
         self.s=s
         print("brand Name:",self.brand,'Speed:',self.s)
+
+
+obj=Car('Supra')
+obj.show(260)
+obj1=Car('Lambo')
+obj1.show()
+
