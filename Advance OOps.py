@@ -415,3 +415,17 @@ class Mobile:
 
 obj = Mobile("RealmeX", 20000)
 obj.discount(50)
+
+
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def is_adult(self):
+        if self.age >= 18:
+            print("True")
+        else:
+            print("False")
