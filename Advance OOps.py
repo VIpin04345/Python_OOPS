@@ -399,3 +399,15 @@ class Student:
 
 obj = Student("Rohit", 78)
 obj.grade()
+
+
+
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def discount(self, discount):
+        discount_price = (self.price * discount) / 100
+        final_price = self.price - discount_price
+        print("Model:", self.brand, "final price:", final_price)
