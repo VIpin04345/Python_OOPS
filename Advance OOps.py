@@ -459,7 +459,7 @@ class Car:
         print('Car name is:',self.name,'Speed is:',self.speed)
 
 
-# obj1=Car(name='Supra',speed=98)
-# obj1.show()
-# obj2=Car('Lambo','100')
-# obj2.show()
+obj1=Car(name='Supra',speed=98)
+obj1.show()
+obj2=Car('Lambo','100')
+obj2.show()
