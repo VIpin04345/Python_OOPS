@@ -429,3 +429,7 @@ class Person:
             print("True")
         else:
             print("False")
+
+
+obj = Person("raghav", 122)
+obj.is_adult()
