@@ -450,3 +450,16 @@ obj.show(260)
 obj1=Car('Lambo')
 obj1.show()
 
+
+class Car:
+    def __init__(self,speed,name):
+        self.speed=speed
+        self.name=name
+    def show(self):
+        print('Car name is:',self.name,'Speed is:',self.speed)
+
+
+# obj1=Car(name='Supra',speed=98)
+# obj1.show()
+# obj2=Car('Lambo','100')
+# obj2.show()
