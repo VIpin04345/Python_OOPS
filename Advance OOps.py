@@ -411,3 +411,7 @@ class Mobile:
         discount_price = (self.price * discount) / 100
         final_price = self.price - discount_price
         print("Model:", self.brand, "final price:", final_price)
+
+
+obj = Mobile("RealmeX", 20000)
+obj.discount(50)
