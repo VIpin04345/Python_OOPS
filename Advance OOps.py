@@ -206,6 +206,26 @@ obj.deposit(500)
 obj.withdraw(100)
 
 
+class BankAccount(object):
+    def __init__(self):
+        self.balance = 1000
+
+    def deposit(self, ammount):
+        print("Your actual balance is", self.balance)
+        self.balance += ammount
+        print("Your balance after deposit:", self.balance)
+
+    def withdraw(self, ammount):
+        if self.balance >= 1000:
+            self.balance -= ammount
+        print("your balance after withdraw:", self.balance)
+
+
+BankAccount()
+obj.deposit(500)
+obj.withdraw(100)
+
+
 
 
 class Employee(object):
