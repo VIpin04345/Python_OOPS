@@ -148,6 +148,22 @@ obj=Car()
 obj.accelerate()
 obj.brake()
 
+class Car(object):
+    def __init__(self):
+        self.brand='Supra'
+        self.speed=250
+
+    def accelerate(self):
+        s=self.speed+10
+        print('speed after accelerate:',s)
+    def brake(self):
+        b=self.speed-5
+        print('speed after brake:',b)
+
+obj=Car()
+obj.accelerate()
+obj.brake()
+
 
 class Ractangle(object):
     def __init__(self):
