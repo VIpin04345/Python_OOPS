@@ -361,6 +361,18 @@ realme = Mobile()
 m = realme.get_model()
 print(m)
 
+class Mobile:
+    def __init__(self):
+        self.model = "RealmeX"
+
+    def get_model(self):
+        return self.model
+
+
+realme = Mobile()
+m = realme.get_model()
+print(m)
+
 
 
 
