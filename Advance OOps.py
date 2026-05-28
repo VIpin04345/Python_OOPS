@@ -231,6 +231,11 @@ class Mobile():
         print("this is constructor class:")
 obj=Mobile()
 
+class Mobile():
+    def __init__(self):
+        print("this is constructor class:")
+obj=Mobile()
+
 class Mobile:
     def __init__(self,m,v=80):
         self.mobile=m
