@@ -640,3 +640,13 @@ obj1 = Student("Akash")
 obj1.show(8, 9687959685, 12)
 obj2 = Student("Vimal")
 obj2.show(10, 9867890976, 16)
+
+
+class Employee:
+    company_name = "XYZ Tech PVT LTD"
+
+    def __init__(self, emp_name):
+        self.name = emp_name
+
+    def show(self):
+        print("Company:", Employee.company_name, "Employee Name:", self.name)
