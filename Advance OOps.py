@@ -606,3 +606,8 @@ class BankAccount:
 obj1 = BankAccount("Shubh", 1000)
 obj1.deposit(500)
 obj1.withdraw()
+
+
+obj2 = BankAccount("Vip", 100000)
+obj2.deposit(5000)
+obj2.withdraw()
