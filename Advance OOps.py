@@ -583,3 +583,23 @@ obj1=Laptop('Lenovo','12GB',50000)
 obj1.show()
 obj2=Laptop("Dell",'8GB',40000)
 obj2.show()
+
+
+
+class BankAccount:
+    def __init__(self, username, balance):
+        self.username = username
+        self.balance = balance
+
+    def deposit(self, ammount):
+        self.ammount = ammount
+        print("Name:", self.username)
+        print("Your currunt balance is:", self.balance)
+        deposit = self.balance + self.ammount
+        print("Your balance after deposit:", deposit)
+
+    def withdraw(self):
+        if self.balance > self.ammount:
+            withdraw = self.balance - self.ammount
+            print("Your balance after withdraw:", withdraw)
+
