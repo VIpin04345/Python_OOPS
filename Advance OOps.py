@@ -603,3 +603,6 @@ class BankAccount:
             withdraw = self.balance - self.ammount
             print("Your balance after withdraw:", withdraw)
 
+obj1 = BankAccount("Shubh", 1000)
+obj1.deposit(500)
+obj1.withdraw()
