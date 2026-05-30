@@ -569,3 +569,17 @@ obj1=Car(name='Supra',speed=98)
 obj1.show()
 obj2=Car('Lambo','100')
 obj2.show()
+
+
+class Laptop:
+    def __init__(self,name , ram , price):
+        self.name=name
+        self.ram=ram
+        self.price=price
+    def show(self):
+        print('Name:',self.name,'\nRam:',self.ram,'\nprice:',self.price)
+
+obj1=Laptop('Lenovo','12GB',50000)
+obj1.show()
+obj2=Laptop("Dell",'8GB',40000)
+obj2.show()
