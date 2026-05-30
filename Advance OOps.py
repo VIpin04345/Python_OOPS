@@ -650,3 +650,14 @@ class Employee:
 
     def show(self):
         print("Company:", Employee.company_name, "Employee Name:", self.name)
+
+         @classmethod
+    def change_classname(cls, new_name):
+        cls.company_name = new_name
+
+
+obj = Employee("Vipin Yadav")
+obj1 = Employee("Shubham Yadav")
+obj.show()
+obj1.change_classname("TCS")
+obj1.show()
