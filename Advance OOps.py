@@ -611,3 +611,27 @@ obj1.withdraw()
 obj2 = BankAccount("Vip", 100000)
 obj2.deposit(5000)
 obj2.withdraw()
+
+
+class Student:
+    school_name = "XYZ International School"
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self, classes, mobile, age):
+        self.classes = classes
+        self.mobile = mobile
+        self.age = age
+        print(
+            "School name:",
+            Student.school_name,
+            "Name Of Student:",
+            self.name,
+            "\n Class Name:",
+            self.classes,
+            "\n Mobile no:",
+            self.mobile,
+            "\n And age:",
+            self.age,
+        )
