@@ -635,3 +635,8 @@ class Student:
             "\n And age:",
             self.age,
         )
+
+obj1 = Student("Akash")
+obj1.show(8, 9687959685, 12)
+obj2 = Student("Vimal")
+obj2.show(10, 9867890976, 16)
