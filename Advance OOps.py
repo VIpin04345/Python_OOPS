@@ -661,3 +661,13 @@ obj1 = Employee("Shubham Yadav")
 obj.show()
 obj1.change_classname("TCS")
 obj1.show()
+
+
+class Car:
+    wheels = 4
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print("Name:", self.name, "Wheels:", self.wheels)
