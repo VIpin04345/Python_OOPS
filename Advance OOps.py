@@ -695,3 +695,6 @@ obj1 = Car("Supra")
 obj2 = Car("Mustang")
 
 obj2.wheels = 6  # override
+obj1.show()  # 4
+obj2.show()  # 6
+
