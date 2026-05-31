@@ -671,3 +671,6 @@ class Car:
 
     def show(self):
         print("Name:", self.name, "Wheels:", self.wheels)
+
+obj1 = Car("Supra")
+obj2 = Car("Mustang")
