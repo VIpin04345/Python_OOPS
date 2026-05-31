@@ -698,3 +698,9 @@ obj2.wheels = 6  # override
 obj1.show()  # 4
 obj2.show()  # 6
 
+class Game:
+    max_player=4
+    def __init__(self,name):
+        self.name=name
+    def show(self):
+        print("name:",self.name,'Players:',self.max_player)
