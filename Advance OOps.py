@@ -679,3 +679,15 @@ obj2.wheels = 6  # override for this object only
 
 obj1.show()
 obj2.show()
+print("Class wheels:", Car.wheels)
+
+
+class Car:
+    wheels = 4
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print("Name:", self.name, "Wheels:", self.wheels)
+
