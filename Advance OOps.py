@@ -704,3 +704,10 @@ class Game:
         self.name=name
     def show(self):
         print("name:",self.name,'Players:',self.max_player)
+obj1=Game("Ludo")
+obj2=Game("carrom")
+obj3=Game("cricket")
+obj3.max_player=11
+obj1.show()
+obj2.show()
+obj3.show()
