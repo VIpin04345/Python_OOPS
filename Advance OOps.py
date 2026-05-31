@@ -674,3 +674,8 @@ class Car:
 
 obj1 = Car("Supra")
 obj2 = Car("Mustang")
+
+obj2.wheels = 6  # override for this object only
+
+obj1.show()
+obj2.show()
