@@ -740,3 +740,7 @@ class Collage:
 
     def show(self):
         print("collage name:", Collage.clg_name, "Name:", self.name)
+
+
+obj1 = Collage("Shubham Yadav")
+obj2 = Collage("Vipin Yadav")
