@@ -727,3 +727,6 @@ class Bank:
 
 obj1 = Bank("Shubham", 1000)
 obj2 = Bank("Vipin", 5000)
+
+obj1.show()
+obj2.show()
