@@ -724,3 +724,6 @@ class Bank:
         print("Name:", self.name)
         print("Balance:", self.balance)
         print("Interest Rate:", self.interest_rate)
+
+obj1 = Bank("Shubham", 1000)
+obj2 = Bank("Vipin", 5000)
