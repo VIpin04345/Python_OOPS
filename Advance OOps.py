@@ -730,3 +730,13 @@ obj2 = Bank("Vipin", 5000)
 
 obj1.show()
 obj2.show()
+
+
+class Collage:
+    clg_name = "XYZ Group Of Institutions"
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print("collage name:", Collage.clg_name, "Name:", self.name)
