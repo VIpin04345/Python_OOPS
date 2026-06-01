@@ -711,3 +711,16 @@ obj3.max_player=11
 obj1.show()
 obj2.show()
 obj3.show()
+
+
+class Bank:
+    interest_rate = 7.5  # class variable (sabke liye same)
+
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+
+    def show(self):
+        print("Name:", self.name)
+        print("Balance:", self.balance)
+        print("Interest Rate:", self.interest_rate)
