@@ -746,4 +746,4 @@ obj1 = Collage("Shubham Yadav")
 obj2 = Collage("Vipin Yadav")
 
 obj1.show()
-obj2.show()
+obj2.show()ndsjndijdfij
