@@ -771,3 +771,7 @@ class Person:
             return "Invalid Age"
         else:
             return self.__age
+
+obj=Person(18)
+
+print(obj.get_age())
