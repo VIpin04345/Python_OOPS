@@ -757,3 +757,7 @@ class Student:
     def get_marks(self):
         return self.__marks
 
+obj = Student(200)
+m = obj.get_marks()
+print(m)
+
