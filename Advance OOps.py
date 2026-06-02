@@ -747,3 +747,13 @@ obj2 = Collage("Vipin Yadav")
 
 obj1.show()
 obj2.show()ndsjndijdfij
+
+
+
+class Student:
+    def __init__(self, __marks):
+        self.__marks = __marks
+
+    def get_marks(self):
+        return self.__marks
+
