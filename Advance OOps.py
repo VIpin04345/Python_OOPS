@@ -761,3 +761,13 @@ obj = Student(200)
 m = obj.get_marks()
 print(m)
 
+
+
+class Person:
+    def __init__(self,age):
+        self.__age=age
+    def get_age(self):
+        if self.__age<0:
+            return "Invalid Age"
+        else:
+            return self.__age
